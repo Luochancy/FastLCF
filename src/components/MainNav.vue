@@ -58,9 +58,13 @@
               </n-alert>
               <br />
               <br />
+              <a style="text-align: center">FastLCF 已经过 LCT 授权与修改部分源代码</a>
+              <br />
               <a style="text-align: center">Daiyangcheng 策划 / 运营 | DXCFTDE, Zhiyuan 协助</a>
               <br />
               <a style="text-align: center">特别鸣谢: 夏沫花火zzz🌙, 天宇网络, LiteCat</a>
+              <br />
+              <a style="text-align: center">FastLCF 由 Luochancy 运营与维护，本站内容不代表 LCF 的正式版内容</a>
               <br />
               <a style="text-align: center"
                 >LoCyanTeam 所有 | 本项目
