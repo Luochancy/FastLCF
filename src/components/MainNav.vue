@@ -9,7 +9,7 @@
             type="warning"
             style="margin-left: 20px; height: 50px; margin-top: 10%"
           >
-            LoCyanFrp
+            FastLCF
           </n-gradient-text>
           <!-- 2023-04-30 23：04 by XiaMoHuaHuo_CN: 哪个大聪明在这放一言 -->
           <!--<n-p style="margin-top: 4%"><n-text style="font-size: 20px"> {{ hitokoto_content }} </n-text></n-p>-->
@@ -64,7 +64,7 @@
               <br />
               <a style="text-align: center">特别鸣谢: 夏沫花火zzz🌙, 天宇网络, LiteCat</a>
               <br />
-              <a style="text-align: center">FastLCF 由 Luochancy 运营与维护，本站内容不代表 LCF 的正式版内容</a>
+              <a style="text-align: center">FastLCF 由 Luochancy 运营与维护，本站内容不代表 LCF 的官方内容</a>
               <br />
               <a style="text-align: center"
                 >LoCyanTeam 所有 | 本项目
