@@ -154,24 +154,6 @@ const routes = [
         },
         component: () => import('../views/Status.vue')
       },
-      // {
-      //   path: '/lan',
-      //   name: 'Lan',
-      //   meta: {
-      //     keepAlive: true,
-      //     title: '联机大厅'
-      //   },
-      //   component: () => import('../views/LanLobby.vue')
-      // }
-      {
-        path: '/multiplayer',
-        name: 'Multiplayer',
-        meta: {
-          keepAlive: true,
-          title: '多人游戏大厅'
-        },
-        component: () => import('../views/LanLobby.vue')
-      },
     ]
   }
 ]
@@ -225,7 +207,7 @@ router.afterEach((to) => {
   FinishLoadingBar()
   if (to.meta.title) {
     //设置标题
-    document.title = to.meta.title + ' | LoCyanFrp'
+    document.title = to.meta.title + ' | FastLCF-LoCyanFrp第三方后台'
   }
 
   switch (to.name) {
