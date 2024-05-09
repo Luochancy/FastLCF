@@ -1,3 +1,4 @@
+// 去除第三方登录代码
 <template>
   <n-drawer v-model:show="show" :width="Width_DiaLog">
     <n-drawer-content title="个人信息" closable>
@@ -11,16 +12,6 @@
         修改您的头像
       </n-text>
       <br />
-      <n-h2>社交账号绑定</n-h2>
-      <n-space>
-        <n-h5 style="margin: 3px"> QQ:</n-h5>
-        <n-button type="info" v-bind:disabled="bindQQ.isDisable" @click="DoBindQQ" :loading="binding">
-          {{ bindQQ.msg }}
-        </n-button>
-        <n-button type="error" v-bind:disabled="bindQQ.unBindDisable" @click="UnBindQQ" :loading="binding">
-          {{ bindQQ.unBindmsg }}
-        </n-button>
-      </n-space>
       <n-h2>修改信息</n-h2>
       <n-text style="color: gray">一旦修改信息，您的登录账户也会随之改变！ </n-text>
       <n-space>
