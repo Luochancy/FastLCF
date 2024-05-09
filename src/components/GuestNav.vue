@@ -8,7 +8,7 @@
             type="warning"
             style="margin-left: 20px; height: 50px; margin-top: 10%"
           >
-            LoCyanFrp
+            FastLCF
           </n-gradient-text>
         </n-space>
       </n-layout-header>
