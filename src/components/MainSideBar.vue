@@ -136,12 +136,6 @@ const menuOptions = [
   //   icon: renderIcon(AttachMoneyFilled)
   // },
   {
-    path: '/multiplayer',
-    label: '联机大厅',
-    key: 'Multiplayer',
-    icon: renderIcon(MdPaperPlane)
-  },
-  {
     path: '/donate',
     label: '赞助',
     key: 'Donate',
